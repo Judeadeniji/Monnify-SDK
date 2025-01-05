@@ -13,19 +13,19 @@ A TypeScript implementation of the Monnify Payment Gateway SDK for seamless inte
 ## Installation
 
 ```bash
-npm install monnify-sdk
+npm install monnify-web-sdk
 ```
 
 Or using yarn:
 
 ```bash
-yarn add monnify-sdk
+yarn add monnify-web-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import MonnifySDK from 'monnify-sdk';
+import MonnifySDK from 'monnify-web-sdk';
 
 MonnifySDK.initialize({
   amount: 1000,

@@ -1,8 +1,8 @@
 {
-  "name": "monnify-sdk",
+  "name": "monnify-web-sdk",
   "version": "0.0.1-alpha",
   "type": "module",
-  "description": "A robust SDK for interacting with Monnify APIs",
+  "description": "A TypeScript implementation of the Monnify Payment Gateway SDK for seamless integration of payment services into web applications.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "browser": "./dist/index.umd.js",
