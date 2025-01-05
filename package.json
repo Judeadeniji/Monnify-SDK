@@ -20,7 +20,7 @@
     "typescript": "~5.6.2",
     "vite": "^6.0.5"
   },
-  "keywords": ["monnify", "sdk", "typescript", "javascript", "rollup", "vite"],
+  "keywords": ["monnify", "sdk", "typescript", "javascript", "payment", "gateway", "web", "integration"],
   "repository": {
     "type": "git",
     "url": "https://github.com/Judeadeniji/monnify-sdk.git"
