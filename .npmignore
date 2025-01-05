@@ -1,0 +1,23 @@
+# Directories
+node_modules
+build
+coverage
+logs
+temp
+
+# Configuration files
+*.env
+*.log
+*.tsbuildinfo
+
+# Source files
+src/
+public/
+lib/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

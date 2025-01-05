@@ -1,0 +1,31 @@
+{
+  "name": "monnify-sdk",
+  "version": "0.0.1-alpha",
+  "type": "module",
+  "description": "A robust SDK for interacting with Monnify APIs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "browser": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run clean && rollup  -c",
+    "preview": "vite preview",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.29.1",
+    "tslib": "^2.8.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  },
+  "keywords": ["monnify", "sdk", "typescript", "javascript", "rollup", "vite"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Judeadeniji/monnify-sdk.git"
+  },
+  "author": "Adeniji Oluwaferanmi <adenijiferanmi64@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
