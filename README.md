@@ -8,7 +8,6 @@ A TypeScript implementation of the Monnify Payment Gateway SDK for seamless inte
 - 🔒 Secure payment processing
 - 🌐 Support for both sandbox and production environments
 - ⚡ Lightweight and efficient implementation
-- 🎨 Customizable UI elements
 - 🔄 Comprehensive payment lifecycle management
 
 ## Installation
@@ -154,7 +153,7 @@ MonnifySDK.initialize({
 
 ## Security Considerations
 
-1. Never expose your API keys in client-side code
+1. Never expose your API keys in client-side code (if possible)
 2. Always validate payment responses server-side
 3. Use HTTPS for all API calls
 4. Implement proper error handling for failed payments
