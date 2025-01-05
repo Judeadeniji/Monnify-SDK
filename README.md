@@ -151,13 +151,6 @@ MonnifySDK.initialize({
 }); // Will log appropriate error messages to console
 ```
 
-## Security Considerations
-
-1. Never expose your API keys in client-side code (if possible)
-2. Always validate payment responses server-side
-3. Use HTTPS for all API calls
-4. Implement proper error handling for failed payments
-
 ## Development Mode
 
 To use the sandbox environment for testing:
